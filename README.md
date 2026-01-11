@@ -26,3 +26,11 @@ La Alke Wallet se cuenta con tecnologías como:
 
 Proyecto desarrollado por Vannia Salazar como parte del proceso formativo del curso.  
 Se utilizaron recursos de apoyo durante su creación , como material del Aula digital Sence , clases impartidas por el profesor Iván Verdugo, documentación oficial , videos educativos y herramientas de inteligencia artificial como apoyo al aprendizaje.
+
+
+
+### Importante!!
+
+Las credenciales de acceso son las siguientes :
+Usuario: Murci
+Contraseña: M1234
