@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Alke Wallet - Menú</title>
+
+<!-- CSS Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"/>  
+
+</head>
+
+<body class="container-fluid justify-content-center align-items-center" style="background-color: #f882b1;">
+
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow p-4" style="width: 350px;">
+        <h4 class="text-center text-danger mb-4 ">Menú Principal</h4>
+       <!--Saldo-->
+       <p class="text-center h4">Saldo Disponible : $<span id="saldo">0</span></p>
+       
+       <!-- ALERTA -->
+        <div id="mensajeMenu" class="mb-3"></div>
+
+        <!--Botones-->
+        <div class="d-flex flex-column align-items-center ">
+        <button id="depositBtn" class="btn btn-success w-100 mb-2">Depositar</button>
+        <button id="sendBtn" class="btn btn-primary w-100 mb-2">Enviar Dinero</button>
+        <button id="transactionBtn" class="btn btn-secondary w-100 ">Últimos Movimientos</button>
+        </div>
+    </div>
+</div>
+   <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous" ></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<!--JS-->
+<script src="./assets/js/menu.js "> </script>
+</body>
+</html>
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet - Depósito</title>
+      
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body class="d-flex justify-content-center align-items-center"
+      style="background-color: #f882b1;">
+
+<div class="container-fluid d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow p-4" style="width: 350px;">
+
+        <h4 class="text-center text-success text-danger mb-3">Depósito</h4>
+
+        <!-- Saldo actual -->
+        <p class="text-center h5">
+            Saldo actual: $<span id="saldoActual">0</span>
+        </p>
+
+        <!-- ALERTA -->
+        <div id="alert-container" class="mb-3"></div>
+
+        <form id="depositForm">
+            <div class="mb-3">
+                <label> Ingrese monto a depositar: </label>
+                <input type="number" id="monto" class="form-control" min="1" required>
+            </div>
+
+            <button type="submit" class="btn btn-outline-info w-100 mb-3">Depositar</button>
+            <button type="button" id="volverMenuBtn" class="btn btn-outline-secondary w-100 mb-3"> Volver al Menú Principal</button>
+        </form>
+
+        <!-- Leyenda del monto depositado -->
+        <p id="leyendaDeposito" class="text-center mt-3"></p>
+
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS -->
+<script src="./assets/js/deposit.js"></script>
+
+</body>
+</html>

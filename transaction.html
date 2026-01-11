@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alke Wallet - Movimientos</title>
+  <!-- Bootstrap 4 CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body style="background-color: #f882b1;">
+
+  <div class="container-fluid mt-5">
+    <div class="card p-4 shadow" style="max-width: 600px; margin: auto;">
+      <h3 class="text-center text-danger mb-4">Últimos Movimientos</h3>
+
+      <!-- Filtro por tipo de transacción -->
+      <div class="form-group mb-3">
+        <select id="filtroTransaccion" class="form-control">
+          <option value="" selected>Todos los movimientos</option>
+          <option value="compra">Compra</option>
+          <option value="deposito">Depósito</option>
+          <option value="transferencia">Transferencia recibida</option>
+        </select>
+      </div>
+
+      <!-- Lista de movimientos -->
+      <ul id="lista" class="list-group mb-3">
+        <!-- Se llenará dinámicamente con jQuery -->
+      </ul>
+
+      <a href="menu.html" class="btn btn-warning btn-block">Volver al Menú Principal</a>
+    </div>
+  </div>
+
+  <!-- jQuery y Bootstrap 4 JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/transaction.js"></script>
+</body>
+</html>

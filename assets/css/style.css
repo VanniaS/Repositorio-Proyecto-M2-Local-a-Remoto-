@@ -1,0 +1,17 @@
+body {
+  background-color: #f882b1;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn-pink {
+  background-color: #e83e8c;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: #d63384;
+  color: white;
+}
