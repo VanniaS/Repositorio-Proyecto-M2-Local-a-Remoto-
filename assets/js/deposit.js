@@ -4,7 +4,7 @@ $(document).ready(function () {
   function formatearMonto(valor) {
     return Number(valor).toLocaleString("es-CL");
   }
-
+<
 
     // Obtener saldo desde localStorage
     let saldo = localStorage.getItem("saldo");
